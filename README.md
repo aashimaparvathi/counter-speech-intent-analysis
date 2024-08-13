@@ -1,6 +1,6 @@
-# IntentConan and IntentConanV2 Dataset Analysis
+# ICONAN and IntentConanV2 Dataset Analysis
 
-This repository contains the code and analysis for understanding the IntentConan and IntentConanV2 datasets, with a focus on intent-conditioned counterspeech generation. The analysis aims to explore various aspects of the datasets, including intent distribution, text length, target group distribution etc.
+This repository contains the code and analysis for understanding the IConan and IntentConanV2 datasets, with a focus on intent-conditioned counterspeech generation. The analysis aims to explore various aspects of the datasets, including intent distribution, text length, target group distribution etc.
 
 ## Table of Contents
 
@@ -19,11 +19,11 @@ This repository contains the code and analysis for understanding the IntentConan
 
 ## Introduction
 
-This project focuses on analyzing the IntentConan and IntentConanV2 datasets, which support the development of models for intent-conditioned counterspeech generation. The datasets contain examples of hate speech and corresponding counterspeech, annotated with various intents/counterspeech strategies.
+This project focuses on analyzing the IConan and IntentConanV2 datasets, which support the development of models for intent-conditioned counterspeech generation. The datasets contain examples of hate speech and corresponding counterspeech, annotated with various intents/counterspeech strategies.
 
 ## Dataset Overview
 
-- **IntentConan**: The original dataset includes counterspeech examples categorized into intents such as positive, informative, questioning, denouncing, and humour.
+- **IConan**: The original dataset includes counterspeech examples categorized into intents such as positive, informative, questioning, denouncing, and humour.
 - **IntentConanV2**: An expanded version of the original dataset, IntentConanV2 refines the intent categories and improves upon the quality and distribution of counterspeech examples. It includes counterspeech examples categorized into intents such as positive, informative, questioning, and denouncing. (Excludes humour).
 
 ## Analysis Summary
@@ -72,7 +72,7 @@ This analysis examines how different intents are distributed across various targ
 
 **Visualizations:**
 
-![Intent Distribution by Target Group IntentConan](img/intent-distribution-by-target-intentconan.png)
+![Intent Distribution by Target Group IConan](img/intent-distribution-by-target-IConan.png)
 ![Intent Distribution by Target Group IntentConanV2](img/intent-distribution-by-target-intentconanv2.png)
 
 ### 6. Wordcloud of Counterspeech
@@ -81,7 +81,7 @@ Wordclouds visualize the most frequent terms used in counterspeech across both d
 
 **Visualizations:**
 
-- **Wordclouds:** Wordclouds for counterspeech in IntentConan and IntentConanV2.
+- **Wordclouds:** Wordclouds for counterspeech in IConan and IntentConanV2.
 
 ![Wordclouds](img/word-cloud.png)
 
@@ -94,9 +94,9 @@ Wordclouds visualize the most frequent terms used in counterspeech across both d
 
 ## Citations
 
-- **IntentConan**:
+- **IConan**:
 
-  > Rishabh Gupta, Shaily Desai, Manvi Goel, Anil Bandhkavi, Tanmoy Chakraborty, and Md Shad Akhtar. Counterspeeches up my sleeve! Intent Distribution Learning and Persistent Fusion for Intent-Conditioned Counterspeech Generation.
+  > Haiyang Wang, Zhiliang Tian, Xin Song, Yue Zhang, Yuchen Pan, Hongkui Tu, Minlie Huang, and Bin Zhou. Intent-Aware and Hate-Mitigating Counterspeech Generation via Dual-Discriminator Guided LLMs.
 
 - **IntentConanV2**:
   > Amey Hengle, Aswini Kumar, Sahajpreet Singh, Anil Bandhakavi, Md Shad Akhtar, and Tanmoy Chakroborty. Intent-conditioned and Non-toxic Counterspeech Generation using Multi-Task Instruction Tuning with RLAIF.
