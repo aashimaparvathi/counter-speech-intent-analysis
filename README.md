@@ -11,8 +11,7 @@ This repository contains the code and analysis for understanding the IConan and 
   - [2. Text Length Analysis](#2-text-length-analysis)
   - [3. Intent-wise Counterspeech Length Analysis](#3-intent-wise-counterspeech-length-analysis)
   - [4. Intent-wise Counterspeech Length Analysis Part 2](#4-intent-wise-counterspeech-length-analysis-part-2)
-  - [5. Intent Distribution by Target Group](#5-intent-distribution-by-target-group)
-  - [6. Wordcloud of Counterspeech](#6-wordcloud-of-counterspeech)
+  - [5. Wordcloud of Counterspeech](#6-wordcloud-of-counterspeech)
 - [How to Run the Code](#how-to-run-the-code)
 - [Contributing](#contributing)
 - [License](#license)
@@ -66,16 +65,7 @@ Further analysis of counterspeech length distributions, including violin plots f
 
 ![Mean vs Median Lengths](img/mean-median-lengths.png)
 
-### 5. Intent Distribution by Target Group
-
-This analysis examines how different intents are distributed across various target groups within the datasets.
-
-**Visualizations:**
-
-![Intent Distribution by Target Group IConan](img/intent-distribution-by-target-IConan.png)
-![Intent Distribution by Target Group IntentConanV2](img/intent-distribution-by-target-intentconanv2.png)
-
-### 6. Wordcloud of Counterspeech
+### 5. Wordcloud of Counterspeech
 
 Wordclouds visualize the most frequent terms used in counterspeech across both datasets.
 
